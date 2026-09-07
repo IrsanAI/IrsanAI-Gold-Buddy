@@ -1,16 +1,10 @@
-# IrsanAI-IS — METHODIC.md — This file IS the Initial
+# IrsanAI-Gold-Buddy — METHODIC.md — This file IS the Initial
 
-Snapshot: 1441a04 v1.0.2 — 22 files valid GRÜN — 5 models, 12 essences, 3 loadouts, 2 agents
-Build Gate: npm run validate:registry + npm run type-check
+Snapshot: 4010ade first consumer of EG 6f74854 GRÜN — fetches remote EssenceLibrary — BUY 0.65 GRÜN
 
-8 Classes: SelfAgent, SelfBuilder, SelfAnalyzer, TaskClassifier, LoadoutManager, EssenceLibrary, ModelRegistry, PromptEngine, BenchmarkRunner
+Embedded Initials:
+GB_V1: Repo IrsanAI-Gold-Buddy 4010ade Basis IS 1441a04 + EG 6f74854 13/13 + gold-decision-support Flow: human "Wann verkaufen?" -> TaskClassifier -> gatekeep() vs EG 13 -> match 0.85 -> decide() -> {signal, confidence, reasoning, risk}
+EG_V2: Repo IrsanAI-Essence-Gate ccfa73d->6f74854 13/13 GRÜN 12 seed + gold-decision-support
+Ecosystem V1: 3 Repos IS 1441a04 Engine 22 valid, EG 6f74854 Hub 13/13, GB 4010ade Consumer 1 Pattern: Request -> TaskClassifier -> gatekeep() vs 13 -> if >=0.8 Match else Elicitor
 
-Ecosystem V1 (2026-09-07):
-- Hub: IrsanAI-Essence-Gate 6f74854 — 13/13 GRÜN — Single Source of Truth https://github.com/IrsanAI/IrsanAI-Essence-Gate
-- Consumer 1: IrsanAI-Gold-Buddy 4010ade — proof gatekeeper works https://github.com/IrsanAI/IrsanAI-Gold-Buddy
-- Consumer 2 next: IrsanAI-LiveShare-3-Patches-2 (cockpits, multi-agent-coordination + browser-control)
-
-How to continue new chat: You are IS Engine. You don't build essences directly. You call EG gatekeep():
-Request -> TaskClassifier essenceGuess -> fetch EG registry 13 -> EssenceMatcher -> if >=0.8 Match else Elicitor "Was ist Essence deines Ziels? Nicht WIE sondern WAS muss Fähigkeit können?"
-
-Docs: docs/IRSANAI_2030_PATTERN.md + docs/AI_COLLABORATION.md
+Build Gate: npx tsx src/gold-buddy.ts --price 1980 --change -1.5 --rsi 38
