@@ -1,0 +1,9 @@
+{
+  "name": "irsanai-gold-buddy",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "First consumer of IrsanAI-Essence-Gate — Gold decision support",
+  "scripts": { "start": "tsx src/gold-buddy.ts --price 2040 --change 2.3 --rsi 72", "buddy": "tsx src/gold-buddy.ts" },
+  "dependencies": { "zod": "^3.23.8" },
+  "devDependencies": { "tsx": "^4.22.4", "typescript": "^5.5.0" }
+}

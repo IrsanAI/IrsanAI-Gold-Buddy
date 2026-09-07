@@ -1,0 +1,1 @@
+Repo: IrsanAI-Gold-Buddy, Basis IS 1441a04 + EG 6f74854 13/13 GRÜN + gold-decision-support, Flow: gatekeep() vs EG -> decide() -> signal
